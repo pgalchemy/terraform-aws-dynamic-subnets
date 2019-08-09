@@ -33,11 +33,6 @@ output "nat_gateway_ids" {
   value       = aws_nat_gateway.default.*.id
 }
 
-output "nat_instance_ids" {
-  description = "IDs of the NAT Instances created"
-  value       = aws_instance.nat_instance.*.id
-}
-
 output "availability_zones" {
   description = "List of Availability Zones where subnets were created"
   value       = var.availability_zones

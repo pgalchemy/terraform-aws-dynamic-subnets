@@ -59,18 +59,6 @@ variable "nat_gateway_enabled" {
   default     = true
 }
 
-variable "nat_instance_enabled" {
-  type        = bool
-  description = "Flag to enable/disable NAT Instances to allow servers in the private subnets to access the Internet"
-  default     = false
-}
-
-variable "nat_instance_type" {
-  type        = string
-  description = "NAT Instance type"
-  default     = "t3.micro"
-}
-
 variable "map_public_ip_on_launch" {
   type        = bool
   default     = true
