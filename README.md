@@ -171,8 +171,6 @@ Available targets:
 | name | Solution name, e.g. 'app' or 'jenkins' | string | `` | no |
 | namespace | Namespace, which could be your organization name or abbreviation, e.g. 'eg' or 'cp' | string | `` | no |
 | nat_gateway_enabled | Flag to enable/disable NAT Gateways to allow servers in the private subnets to access the Internet | bool | `true` | no |
-| nat_instance_enabled | Flag to enable/disable NAT Instances to allow servers in the private subnets to access the Internet | bool | `false` | no |
-| nat_instance_type | NAT Instance type | string | `t3.micro` | no |
 | private_network_acl_id | Network ACL ID that will be added to private subnets. If empty, a new ACL will be created | string | `` | no |
 | public_network_acl_id | Network ACL ID that will be added to public subnets. If empty, a new ACL will be created | string | `` | no |
 | regex_replace_chars | Regex to replace chars with empty string in `namespace`, `environment`, `stage` and `name`. By default only hyphens, letters and digits are allowed, all other chars are removed | string | `/[^a-zA-Z0-9-]/` | no |
