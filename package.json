@@ -1,6 +1,6 @@
 {
   "name": "terraform-aws-dynamic-subnets",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "description": "Terraform module for public and private subnets provisioning in existing VPC",
   "main": "index.js",
   "directories": {
