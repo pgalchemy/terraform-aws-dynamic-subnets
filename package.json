@@ -1,0 +1,24 @@
+{
+  "name": "terraform-aws-dynamic-subnets",
+  "version": "0.16.0",
+  "description": "Terraform module for public and private subnets provisioning in existing VPC",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgalchemy/terraform-aws-dynamic-subnets.git"
+  },
+  "author": "Jeremiah Harlan <jeremiah.harlan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgalchemy/terraform-aws-dynamic-subnets/issues"
+  },
+  "homepage": "https://github.com/pgalchemy/terraform-aws-dynamic-subnets#readme"
+}
